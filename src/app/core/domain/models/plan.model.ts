@@ -13,5 +13,5 @@ export interface Plan {
   readonly beneficios: readonly string[];
   readonly colorAccent: string;
   readonly destacado: boolean;
-  readonly icono: string;
+  readonly icono?: string;
 }

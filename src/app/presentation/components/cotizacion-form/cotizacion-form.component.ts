@@ -62,6 +62,7 @@ export class CotizacionFormComponent {
   readonly tiposDocumento: TipoDocumento[] = ['DNI', 'CUIL', 'CUIT', 'Pasaporte'];
   readonly tiposAfiliacion: { valor: TipoAfiliacion; label: string }[] = [
     { valor: 'Particular',   label: 'Socio Particular' },
+    { valor: 'RelacionDependencia',   label: 'Relación de Dependencia' },
     { valor: 'Monotributo',  label: 'Monotributista' },
     { valor: 'Empresa',      label: 'Convenio de Empresa' },
   ];

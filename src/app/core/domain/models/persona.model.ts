@@ -2,7 +2,7 @@
 // Principio S (SRP): modela exclusivamente los datos de una persona
 
 export type TipoDocumento = 'DNI' | 'CUIL' | 'CUIT' | 'Pasaporte';
-export type TipoAfiliacion = 'Particular' | 'Monotributo' | 'Empresa';
+export type TipoAfiliacion = 'Particular' | 'Monotributo' | 'Empresa' | 'RelacionDependencia';
 
 export interface Persona {
   readonly nombre: string;

@@ -32,7 +32,6 @@ const PLANES_DATA: Plan[] = [
     ],
     colorAccent: '#4CAF82',
     destacado: false,
-    icono: '🌿',
   },
   {
     id: 'PLANA2',
@@ -56,8 +55,7 @@ const PLANES_DATA: Plan[] = [
       'Segunda opinión médica',
     ],
     colorAccent: '#2E86AB',
-    destacado: true,
-    icono: '⭐',
+    destacado: true
   },
   {
     id: 'PLANA4',
@@ -82,8 +80,7 @@ const PLANES_DATA: Plan[] = [
       'Atención domiciliaria',
     ],
     colorAccent: '#7B2FBE',
-    destacado: false,
-    icono: '💎',
+    destacado: false
   },{
     id: 'PLANA5',
     tipo: 'premium',
@@ -108,8 +105,7 @@ const PLANES_DATA: Plan[] = [
       'Atención domiciliaria',
     ],
     colorAccent: '#7B2FBE',
-    destacado: false,
-    icono: '💎',
+    destacado: false
   }
 ];
 
